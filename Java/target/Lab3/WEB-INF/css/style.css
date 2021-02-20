@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+form{
+
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding-top: 30px;
+    text-align: center;
+    width: 6%;
+    vertical-align: middle;
+}
+
+td:first-child{
+    width: 47%;
+    padding: 0px 20px 0px 60px;
+}
+
+td:last-child{
+    width: 47%;
+    padding: 0px 60px 0px 20px;
+}
+
+td button{
+    background-color: unset;
+    outline: none;
+    border: none;
+    height: 45px;
+    line-height: 45px;
+    width: 45px;
+}
+
+td button img{
+    border: 2px solid transparent;
+    padding: 5px;
+    width: 40px;
+}
+
+td button:active{
+    outline: none;
+}
+
+td img:hover{
+    cursor: pointer;
+    border: 2px solid rgba(0, 139, 255, 0.5);
+    border-radius: 5px;
+}
+
+.txar{
+    width: 100%;
+    display: inline-block;
+}
+
+.txar textarea{
+    resize: none;
+    padding: 10px;
+    border: 3px solid #454545;
+    border-radius: 10px;
+    display: block;
+    width: calc(100% - 20px);
+    height: 100px;
+}
+
+.txar a{
+    text-align: left;
+    size: 24px;
+    line-height: 30px;
+}
+
+.txar textarea:focus{
+    outline: none;
+    border: 3px solid rgba(0, 139, 255, 0.5);
+}
